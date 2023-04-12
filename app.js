@@ -41,10 +41,7 @@ function decryptText() {
 function CreateButtonCopy(box) {
 	const btnCopy = document.createElement('button')
 	btnCopy.innerText = 'Copiar'
-	btnCopy.classList.add('btn__secondary')
-	btnCopy.style.margin = 'auto'
-	btnCopy.style.position = 'absolute'
-	btnCopy.style.bottom = '2rem'
+	btnCopy.classList.add('btn__secondary', 'btn__copy')
 	btnCopy.onclick = copyToClipBoard
 	box.appendChild(btnCopy)
 }

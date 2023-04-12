@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family:Inter:wght;@300;400;600;700&display:swap');
 
 * {
 	margin: 0;
@@ -127,6 +127,12 @@ body {
 	background-color: #d8dfe8;
 }
 
+.btn__copy {
+	position: 'absolute';
+	margin: 'auto';
+	bottom: '2rem';
+}
+
 @media screen and (max-width: 1400px) {
 	.main {
 		margin: 1rem;
@@ -136,6 +142,11 @@ body {
 	}
 	.section__left__box {
 		padding-left: 5rem;
+	}
+	.btn__copy {
+		position: 'relative';
+		bottom: 0.5rem;
+		margin-top: 2rem;
 	}
 }
 @media screen and (max-width: 1200px) {
