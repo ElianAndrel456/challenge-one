@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desafio de la plataforma de alura, challenge 1 encriptador de texto"/>
+  <meta name="keywords" content="desafio,alura,one,oracle,challenge,encriptador"/>
+  <meta name="author" content="Elian Joyo Villanueva" />
+  <meta name="copyright" content="Elian Joyo Villanueva" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <title>Challenge one - Encriptador texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+  <section class="section__left">
+    <img class="section__left__logo" src="./public/Logo.png" alt="logo">
+    <div class="section__left__box">
+      <textarea id="input-text" placeholder="Ingresa tu texto aqui" ></textarea>
+      <div class="section__left__box__buttons">
+        <span><img src="./public/exclamation.png" alt="exclamation"> Solo letras minusculas y sin acentos</span>
+        <div>
+          <button onclick="encryptText()" class="btn__main">Encriptar</button>
+          <button onclick="decryptText()" class="btn__secondary">Desencriptar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__right">
+    <div id="show-text" class="section__right__box">
+      <img src="./public/Muneco.png" alt="">
+      <h3>Ningun Mensaje fue encontrado</h3>
+      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+  </section>
+</main>
+<footer>© Copyright: Elian Joyo Villanueva</footer>
+  <script src="./app.js"></script>
+</body>
+</html>
